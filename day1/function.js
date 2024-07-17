@@ -45,3 +45,18 @@ const sum = (a, b, c) => a + b + c;
 
 console.log(sum(3, 4, 17)); // Output: 24
 
+//Lastley we have something called higher order function
+
+//Higher-Order Functions: functions can be passed as arguments to other functions 
+//and returned as values.
+
+//this function will have 3 param, a and b are int a execute is a function
+function sub(a,b,func){
+    //this fun variable will call the execute function
+    return func(a,b);
+}
+function execute(a,b){
+    return a-b;
+}
+//this sub will intake the 2 int an we are expliciatly naming the execute function
+console.log(sub(123,25,execute));// Output: 98
