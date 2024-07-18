@@ -31,9 +31,9 @@ var Person = function(name){
 util.inherits(Person,events.EventEmitter);
 //we just created people
 
-var p1 = Person('Chris');
-var p2 = Person('David');
-var p3 = Person('Kuya');
+var p1 = new Person('Chris');
+var p2 = new Person('David');
+var p3 = new Person('Kuya');
 
 //Now we will just put this within an array
 
@@ -48,3 +48,4 @@ arr.forEach(function(people){
 })
 
 p1.emit('speak',"hello guys!");
+p2.emit('speak',"Are we going to play today?");
