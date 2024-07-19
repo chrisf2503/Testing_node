@@ -1,0 +1,21 @@
+Statement of Problem:   INTERN MAYBE LAUNCHER NO.
+Carpet Purchase and Installation Estimator:
+You are given the price of carpet per square yard: For example: $40.00
+You are given that each square yard of carpetpurchased has an installation cost of $15.00
+You are given an ArrayList of size X that contains the length and width dimensions of one or more rooms in inches – for example:
+ArrayList[0] = {length: 120, width: 96}   for example: 120 X 96 ==> 11,520 square inches.
+ArrayList[1] = {length: 96, width: 82}
+….
+For reference: Square yard of carpet is 36 X 36 inches = 1,296 sqre inches.
+ 
+Calculate the cost for Carpet Installation, using the following process:
+For each room round up to the next square yard indicated by its size and then add 10% to that room’s total to account for construction waste.
+(area (around) + 110%)  
+With this 110% figure then round up to the next square yard.   (as carpet is sold only by the square yard).
+Add up the total carpet needs for each room.   
+Your output should contain 3 final values to present to the customer:
+Total square yards needed for whole project:
+Total Carpet cost.
+Total Installation cost.
+TOTAL COST OF EVERYTHING: $
+(Taxes are not  for this scenario)calculated
